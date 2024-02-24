@@ -1,0 +1,86 @@
+.get_in_touch {
+  position: relative;
+  padding-top: 120px;
+  height: 499px;
+
+
+  .img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .build {
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+
+
+    h2 {
+      text-align: center;
+      color: rgb(72, 85, 91);
+      font-size: 30px;
+      font-weight: 700;
+
+    }
+
+    button {
+
+      margin-top: 35px;
+      width: 150px;
+      height: 40px;
+      background: $main_color;
+      border: none;
+      color: white;
+      font-size: 13px;
+      font-weight: 700;
+    }
+  }
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background: rgb(23, 24, 25);
+
+  &_block {
+    display: flex;
+    justify-content: center;
+    gap: 71px;
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: white;
+
+    }
+
+    .signup_form {
+      display: flex;
+      .input_form {
+        padding-left: 20px;
+        width: 250px;
+        height: 40px;
+        border: 1px solid rgb(151, 151, 151);
+
+      }
+
+      button {
+        background: $main-color;
+        border: none;
+        width: 150px;
+        height: 40px;
+        text-transform: uppercase;
+        color: white;
+
+      }
+    }
+  }
+}

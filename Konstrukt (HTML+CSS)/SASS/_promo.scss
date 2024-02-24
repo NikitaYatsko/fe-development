@@ -1,0 +1,46 @@
+.promo {
+  padding: 41px 0 71px 0;
+  height: 100vh;
+  width: 100%;
+  background: url("../IMG/bg.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+
+  &_logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &_welcome {
+    h1 {
+      color: rgb(255, 255, 255);
+      font-size: 60px;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    p {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &_scroll {
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 71px;
+
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  .nav_list {
+    display: flex;
+    gap: 42px;
+
+    .nav_link {
+      list-style: none;
+
+      a {
+        color: rgb(72, 85, 91);
+        transition: .5s;
+
+        &:hover {
+        }
+
+        &:hover {
+          color: $main_color;
+        }
+      }
+    }
+  }
+}
+

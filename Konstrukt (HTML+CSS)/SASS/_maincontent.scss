@@ -1,0 +1,153 @@
+$main_color: rgb(0, 164, 229);
+
+span {
+  color: $main_color;
+}
+
+.divider {
+  width: 50px;
+  height: 2px;
+  background: $main_color;
+  margin: 10px auto 0;
+}
+
+.divider_left {
+  width: 50px;
+  height: 2px;
+  background: $main_color;
+}
+
+.ourstory_header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main_content {
+  padding: 61px 0 115px 0;
+}
+
+.ourstory_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+
+  .ourstory_text {
+    width: 400px;
+
+    .founded {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .text {
+      margin-top: 30px;
+      color: rgb(72, 85, 91);
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+}
+
+.ourstory_we {
+  .we_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    .we_item_1, .we_item_2, .we_item_3 {
+      width: 140px;
+      height: 225px;
+      padding: 23px;
+
+      h2 {
+        color: rgb(255, 255, 255);
+
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 400;
+
+      }
+
+    }
+
+    .we_item_1 {
+      background: url("../IMG/Bitmap_3.png") center;
+      background-size: cover;
+    }
+
+    .we_item_2 {
+      background: url("../IMG/Bitmap_2.png") center;
+      background-size: cover;
+    }
+
+    .we_item_3 {
+      background: url("../IMG/Bitmap.png") center;
+      background-size: cover;
+    }
+  }
+}
+
+.capabilities {
+  margin-top: 123px;
+
+  &_header {
+    text-transform: uppercase
+  }
+
+  &_text {
+    color: rgb(72, 85, 91);
+    font-size: 11px;
+    font-weight: 400;
+    max-width: 405px;
+    margin-right: 31px;
+  }
+
+  .capabilities_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .capabilities_block_2 {
+      display: flex;
+
+      .services {
+        width: 150px;
+        height: 40px;
+        background: $main_color;
+        border: none;
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .capabilities_wrapper_2 {
+
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+
+    .cap_item {
+      padding: 39px 0 39px 23px;
+      border: 1px solid rgb(230, 230, 230);
+      width: 295px;
+      height: 330px;
+      position: relative;
+
+      h2 {
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      p {
+        position: absolute;
+        bottom: 39px;
+        color: rgb(72, 85, 91);
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+}
